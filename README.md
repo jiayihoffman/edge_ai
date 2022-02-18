@@ -1,1 +1,1 @@
-Smart robot makes home safer and fun.
+Smart robot makes home safe and fun.
