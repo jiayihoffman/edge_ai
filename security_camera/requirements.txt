@@ -1,0 +1,6 @@
+tensorflow==2.7
+tensorflow_hub
+matplotlib
+numpy
+pandas
+scipy

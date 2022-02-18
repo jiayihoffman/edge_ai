@@ -1,0 +1,10 @@
+.DS_Store
+.ipynb_checkpoints/
+.idea/
+tensor_env/
+notebooks/logs/
+notebooks/models/
+notebooks/saved_models/
+notebooks/tflite_models/
+images/
+
