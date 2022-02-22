@@ -20,13 +20,7 @@
 Notes: 
 * requirements_raspi.txt does not use tensorflow library. It uses tflite_runtime. 
 
-====
 
-to show core dump, add the following line in the python code: faulthandler is part of Python3
-import faulthandler
-faulthandler.enable()
-
-====
 
 
 
