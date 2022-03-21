@@ -20,7 +20,7 @@ HIGH = 1
 LOW = 0
 
 def forward(enA, enB, in1, in2, in3, in4):
-   print("forward")
+   print('forward')
    enA.write(CAR_SPEED);
    enB.write(CAR_SPEED);
    in1.write(HIGH)
@@ -29,7 +29,7 @@ def forward(enA, enB, in1, in2, in3, in4):
    in4.write(HIGH)
 
 def back(enA, enB, in1, in2, in3, in4):
-   print("back")
+   print('back')
    enA.write(CAR_SPEED);
    enB.write(CAR_SPEED);
    in1.write(LOW)
@@ -38,6 +38,7 @@ def back(enA, enB, in1, in2, in3, in4):
    in4.write(LOW)
 
 def left(enA, enB, in1, in2, in3, in4):
+   print('left')
    enA.write(0.3);
    enB.write(0.8);
    in1.write(LOW)
@@ -46,6 +47,7 @@ def left(enA, enB, in1, in2, in3, in4):
    in4.write(HIGH)
 
 def right(enA, enB, in1, in2, in3, in4):
+   print('right')
    enA.write(0.8);
    enB.write(0.3);
    in1.write(HIGH)

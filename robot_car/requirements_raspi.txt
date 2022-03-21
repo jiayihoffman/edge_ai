@@ -1,6 +1,8 @@
+--extra-index-url https://google-coral.github.io/py-repo/
 pyfirmata
 pyserial
+argparse
 numpy~=1.21.0
-opencv-python~=4.5.3.56
+tflite-runtime==2.5.0
 confluent-kafka
 picamera

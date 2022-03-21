@@ -27,7 +27,7 @@ https://roboticsbackend.com/control-arduino-with-python-and-pyfirmata-from-raspb
 3. Use IOC bus to do logical level conversion: <br>
 https://dronebotworkshop.com/i2c-arduino-raspberry-pi/
 
-### Start Kafka server
+### Start Kafka server (if use Kafka for data)
 download Kafka server package from:<br>
 https://docs.confluent.io/platform/current/installation/installing_cp/overview.html#installation-archive
 
@@ -36,4 +36,9 @@ https://docs.confluent.io/platform/current/installation/installing_cp/overview.h
 ./bin/kafka-server-start ./etc/kafka/server.properties
 ```
 
+### Configure WebRTC
+1. Install UV4L streaming server on Raspberry Pi: https://www.linux-projects.org/uv4l/installation/ 
+2. Configure SSL on Raspberry Pi for the UV4L server.
+3. View live video captured from the Pi camera in a browser: `https://<raspihost>:<uv4lport>/`
+4. use arrow keys and space key to control the robot go forward, right, left, back and stop
 
