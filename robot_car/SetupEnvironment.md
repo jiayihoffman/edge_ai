@@ -37,12 +37,13 @@ https://docs.confluent.io/platform/current/installation/installing_cp/overview.h
 ```
 
 ### Configure WebRTC on Raspberry Pi
-1. Install UV4L streaming server on Raspberry Pi according to [these instructions](https://www.linux-projects.org/uv4l/installation/). 
+1. Install UV4L streaming server and other modules on Raspberry Pi according to [these instructions](https://www.linux-projects.org/uv4l/installation/). 
 2. Configure SSL on Raspberry Pi for the UV4L server in `/etc/uv4l/uv4l-raspicam.conf` 
-3. View live video captured from the Pi camera in a browser: `https://<raspihost>:<uv4lport>/`
-4. use arrow keys to control the robot to go forward, right, left, back. Use `space` key to stop the robot car.
+3. View live video captured from the Pi camera in a browser: `https://<raspihost>:<uv4lport>/stream/webrtc`
+4. In "Data Channels" section, check "send key codes", click the "message" box, and use arrow keys to control the robot's direction (forward, right, left, back) and use `space` key to stop the robot car.
 
 ### Controlling DC Motors with L298N Dual H-Bridge and an Arduino 
 https://dronebotworkshop.com/dc-motors-l298n-h-bridge/ 
 
-![alt text](./images/IMG_1128.jpeg)
+![alt text](./images/IMG_0681.jpeg)
+![alt text](./images/IMG_0686.jpeg)

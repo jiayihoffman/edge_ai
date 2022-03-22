@@ -34,7 +34,7 @@ def decode_data(data):
     data = data.decode('utf-8')
     try:
         command = json.loads(data)[COMMAND_JSON_KEY][0]
-        print('command received ', command, type(command))
+        # print('command received ', command, type(command))
         return command
     except json.decoder.JSONDecodeError:
         return None
