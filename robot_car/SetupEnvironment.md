@@ -1,5 +1,13 @@
 
-### setup the command center environment (on Mac):
+### Setup the robot controller environment: (on Raspberry Pi)
+```
+>> python3 -m venv tensor_env
+>> source tensor_env/bin/activate
+(tensor_env) >> pip install --upgrade pip
+(tensor_env) >> pip install -r requirements_raspi.txt 
+```
+
+### setup the command center environment if use Kafka for data (on Mac):
 ```
 >> python3 -m venv tensor_env
 >> source tensor_env/bin/activate
@@ -8,14 +16,6 @@
 
 # install Tkinter, python graphic UI for key stroke detection. 
 (tensor_env) >> sudo apt-get install python-tk
-```
-
-### Setup the robot controller environment: (on Raspberry Pi)
-```
->> python3 -m venv tensor_env
->> source tensor_env/bin/activate
-(tensor_env) >> pip install --upgrade pip
-(tensor_env) >> pip install -r requirements_raspi.txt 
 ```
 
 ### Arduino and Raspberry Pi communication:
