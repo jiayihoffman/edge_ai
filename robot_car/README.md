@@ -4,4 +4,6 @@ I have two lovely cats. I often miss them when I am travel. I have a cat sitter 
 
 Technologies used here are Arduino, Raspberry Pi, WebRTC, and Kafka event streaming. Arduino is for IO; Raspberry Pi is the controller, the robot’s brain. The Pi sends me the live video stream through WebRTC while driving through the house, and it responds to commands I sent remotely through Kafka or the WebRTC data channel.
 
+![alt text](./images/IMG_1128.jpeg)
+
 
