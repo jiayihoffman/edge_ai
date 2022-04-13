@@ -7,17 +7,6 @@
 (tensor_env) >> pip install -r requirements_raspi.txt 
 ```
 
-### setup the command center environment if use Kafka for data (on Mac):
-```
->> python3 -m venv tensor_env
->> source tensor_env/bin/activate
-(tensor_env) >> pip install --upgrade pip
-(tensor_env) >> pip install -r requirements.txt
-
-# install Tkinter, python graphic UI for key stroke detection. 
-(tensor_env) >> sudo apt-get install python-tk
-```
-
 ### Arduino and Raspberry Pi communication options:
 1. Direct communication using the USB serial port: <br> 
 https://www.woolseyworkshop.com/2020/02/05/controlling-an-arduino-from-a-raspberry-pi/
@@ -28,15 +17,6 @@ https://roboticsbackend.com/control-arduino-with-python-and-pyfirmata-from-raspb
 https://dronebotworkshop.com/i2c-arduino-raspberry-pi/
 
 I chose option #2 since it is same as approach #1, using USB serial port, but with simpler interface.
-
-### Start Kafka server (if use Kafka for data)
-download Kafka server package from:<br>
-https://docs.confluent.io/platform/current/installation/installing_cp/overview.html#installation-archive
-
-```
-./bin/zookeeper-server-start ./etc/kafka/zookeeper.properties
-./bin/kafka-server-start ./etc/kafka/server.properties
-```
 
 ### Configure WebRTC on Raspberry Pi
 1. Install UV4L streaming server and other modules on Raspberry Pi according to [these instructions](https://www.linux-projects.org/uv4l/installation/). 

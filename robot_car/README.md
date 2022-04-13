@@ -1,8 +1,8 @@
 # Robot Car
 
-I have two lovely cats. I often miss them when I am travel. I have a cat sitter help, but having a robot that I can remotely drive and see what the robot sees will be great. Then I can see what my cats are doing and talk to them whenever I want.   
+A robot car that I can remotely drive to check up on my pets and patrol the house while I am away. I see everything through the robot's camera. The robot uses Arduino, Raspberry Pi, and WebRTC for P2P real-time video, audio, and bidirectional data exchange.
 
-Technologies used here are Arduino, Raspberry Pi, WebRTC, and Kafka event streaming. Arduino is for IO; Raspberry Pi is the controller, the robot’s brain. The Pi sends me the live video stream through WebRTC while driving through the house, and it responds to commands I sent remotely through the WebRTC data channel or Kafka.
+Arduino is for IO and is more accurate than the Raspberry Pi; the Pi is a controller, the robot’s brain. The Pi sends me the live video stream through WebRTC while driving through the house, and it responds to commands I send remotely through the WebRTC data channel.
 
 <br>
 
