@@ -25,7 +25,9 @@ I chose option #2 since it is same as approach #1, using USB serial port, but wi
 4. View live video captured from the Pi camera in a browser: open web page `https://<raspihost>:8080/stream/webrtc`, and click the green "Call!" button
 5. Start `command_processor_webrtc.py` in python virtual environment. 
    1. need to set PYTHONPATH: `export PYTHONPATH='/home/pi/dev/edge_ai/robot_car'`
-6. In "Data Channels" section, check "send key codes", click the "message" box, and use arrow keys to control the robot's direction (forward, right, left, back) and use `space` key to stop the robot car.
+   2. start from the `robot_car` directory: `python robot_controller/command_processor_webrtc.py`
+6. In "Data Channels" section, check "send key codes", click the "message" box, and use arrow keys to control the robot's direction 
+(forward, right, left, back) and use `space` key to stop the robot car. Key "G", "H", "J" to control the servo.  
 
 ### Controlling DC Motors with L298N Dual H-Bridge and an Arduino 
 https://dronebotworkshop.com/dc-motors-l298n-h-bridge/ 

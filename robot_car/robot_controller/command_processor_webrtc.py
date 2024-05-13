@@ -20,11 +20,11 @@ servo_angle = SERVO_START_ANGLE
 
 def command_angle(command):
     global servo_angle
-    if command == 34:
+    if command == 34:  # 'G' turn left
         servo_angle += 20
-    elif command == 35:
+    elif command == 35:  # 'H' turn right
         servo_angle -= 20
-    elif command == 36:
+    elif command == 36:  # 'J' stop servo
         servo_angle = SERVO_START_ANGLE
     servo_angle = move_servo(servo_pin, servo_angle)
 
