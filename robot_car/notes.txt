@@ -1,13 +1,13 @@
-P2P video streaming platforms
+== P2P video streaming platforms
 1. Tox Chat
 2. Retroshare
 https://www.ringcentral.com/us/en/blog/peer-to-peer-video-conference/#2%20options%20for%20peer-to-peer%20video%20conferencing%20platforms
-
 3. Webrtc - a standard, bidirectional audio video & data secure P2P communication
 https://www.youtube.com/watch?v=aNdaqo2nlRc
 Stun server, signaling server, negotiate media capability (session description protocol - type, codec, frame rate, capability) 
 
-WebRTC servers implementations:
+
+== WebRTC server
 1). UV4L:
 https://www.linux-projects.org/uv4l/
 
@@ -30,8 +30,7 @@ https://raspi1.jiayi.com:8080/
 UV4L custom module URL:
 https://raspi1.jiayi.com:8888/
 
-===
-Other WebRTC implemtations:
+2). Other WebRTC implemtations:
 https://github.com/kclyu/rpi-webrtc-streamer
 https://github.com/meetecho/janus-gateway
 https://forums.raspberrypi.com/viewtopic.php?t=186271
