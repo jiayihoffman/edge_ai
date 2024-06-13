@@ -3,6 +3,7 @@
 .idea/
 __pycache__/
 tensor_env/
+venv
 logs/
 models/
 saved_models/
