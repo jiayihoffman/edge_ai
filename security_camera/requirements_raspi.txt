@@ -1,9 +1,9 @@
-# raspi environment
+# requirement file for raspberry
 --extra-index-url https://google-coral.github.io/py-repo/
-argparse
-numpy~=1.21.0
-opencv-python~=4.5.3.56
-tflite-runtime==2.5.0
-picamera
-Pillow
-
+tflite-runtime==2.14.0
+numpy==1.26.4
+scipy==1.13.1
+sounddevice==0.4.6
+soundfile==0.12.1
+opencv-python==4.9.0.80
+pillow==10.3.0

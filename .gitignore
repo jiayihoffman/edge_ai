@@ -9,4 +9,11 @@ models/
 saved_models/
 tflite_models/
 images/
-
+saved
+sound_clips
+*.wav
+*.jpg
+build
+data
+datasets
+test_data
