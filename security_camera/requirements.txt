@@ -1,6 +1,41 @@
-tensorflow==2.7
-tensorflow_hub
+##### TensorFlow-related packages
+tensorflow==2.15.0
+tensorflow-metal
+tensorboard-plugin-profile
+tensorflow-datasets
+tensorflow-hub
+kagglehub
+keras-tuner
+
+# https://github.com/tensorflow/io#tensorflow-version-compatibility
+tensorflow-io==0.36.0
+
+##### Core scientific packages
+jupyterlab
 matplotlib
 numpy
 pandas
 scipy
+
+##### Machine Learning packages
+scikit-learn
+
+##### Image manipulation
+Pillow
+graphviz
+pydot
+
+##### soud event detection
+sounddevice==0.4.6
+soundfile==0.12.1
+#pyaudio
+
+# Optional
+statsmodels
+
+pytest
+seaborn
+
+##### Object detection, Image Classification
+opencv-python
+tf_slim
